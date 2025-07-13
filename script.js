@@ -19,7 +19,7 @@ const button=document.querySelector("#bttn button");
 let target= "Noida";
 const fetchResult = async(target)=>{
 
-    let url=`http://api.weatherapi.com/v1/current.json?key=10fec1863164473f9be184955250706&q=${target}&aqi=no`;
+    let url=`https://api.weatherapi.com/v1/current.json?key=10fec1863164473f9be184955250706&q=${target}&aqi=no`;
    const res = await fetch(url);
     const data = await res.json();
     console.log(data);
