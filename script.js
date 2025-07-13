@@ -1,5 +1,7 @@
 //http://api.weatherapi.com/v1/current.json?key=10fec1863164473f9be184955250706&q=Noida&aqi=no
 
+console.log("JavaScript is connected and running!");
+
 const tempfield=document.querySelector("#temp");
 const locName=document.querySelector("#place");
 const condition=document.querySelector("#condition");
